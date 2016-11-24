@@ -341,7 +341,7 @@ a.with-arw:after {
   position: relative;
 }
 .home-banner .banner img, .banner-slider .banner img, .contact-slider .banner img {
-  max-width: 100%;
+  width: 100%;
   padding-left: 75px;
 }
 .home-banner .flex-caption, .banner-slider .flex-caption, .contact-slider .flex-caption {
@@ -1774,7 +1774,6 @@ article.type-editorial {
 }
 
 .featured-left {
-  background: #f7f7f7;
   padding: 100px 0;
   width: 44%;
 }
@@ -1782,12 +1781,19 @@ article.type-editorial {
 .featured-right {
   width: 56%;
 }
+.featured-right img {
+  width: 100%;
+}
+
+.featured_description {
+  padding-left: 20px;
+}
 
 .featured-col {
   display: table;
   width: 100%;
-  max-width: 1400px;
   margin: 0 auto;
+  background: linear-gradient(to right, #f7f7f7 0%, #f7f7f7 53%, #ffffff 53%, #ffffff 100%);
 }
 
 .featured-left, .featured-right {

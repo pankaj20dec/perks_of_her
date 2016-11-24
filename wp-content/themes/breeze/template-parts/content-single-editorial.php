@@ -1,9 +1,9 @@
 <?php
 $sub_heading = get_post_meta($post->ID, "breeze_custom_sub_heading", true);
-$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), '1500x600' )[0];
+//$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), '1500x600' )[0];
 
 if(get_field('banner_image')){
-	$image = get_field('banner_image')['sizes']['1500x600'];
+	//$image = get_field('banner_image')['sizes']['1500x600'];
 }
 
 ?>
