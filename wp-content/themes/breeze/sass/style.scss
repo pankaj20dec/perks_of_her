@@ -1,0 +1,53 @@
+/*
+Theme Name: Breeze
+Theme URI: https://builtbyblank.com
+Author: Built By Blank
+Author URI: https://builtbyblank.com
+Description: Breeze is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere.
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+Text Domain: Breeze
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+ 
+@import "compass";
+@import "compass/reset";
+
+
+
+
+//about page fix
+
+.page-template-template-about-us {
+	.col-sm-5 .content {
+	    padding-left: 67px;
+	}	
+}
+
+
+.nj-form-wrap {
+	input {
+	    border-radius: 0;
+	    box-shadow: none;
+	    border: none;
+	    height: 40px;
+	    background: #f7f7f7 !important;
+	    text-transform: lowercase;
+	    padding: 14px;
+	    font-weight: 200;		
+	}
+	textarea {
+	    border-radius: 0;
+	    box-shadow: none;
+	    border: none;
+	    height: 40px;
+	    background: #f7f7f7 !important;
+	    text-transform: lowercase;
+	    padding: 14px;
+	    font-weight: 200;		
+	}
+}
